@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    background-image: url(https://wallpaperaccess.com/full/435468.jpg);
+    /* background-image: url(https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/08.jpg?3); */
+    height: 100%;
+}
+
+#lefty{
+float: left;
+width: 70%;
+}
+
+#time{
+padding-left: 40px;
+}
+
+#righty{
+    float: right;
+    width: 30%;
+}
+
+#timeheads{
+    font-family: system-ui;
+    font-size: 5.8rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+#dateheads{
+    font-size: 2.4rem;
+    margin-top: 0px;
+    font-family: system-ui;
+}
+#day{
+    font-weight: 600;
+    background: #e5e2c7;
+}
+
+#subheads{
+    font-family: system-ui;
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    background: #0f1010;
+    width: fit-content;
+    padding: 3px;
+}
+
+#blogimg{
+    width: 50px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#subtext{
+    font-family: system-ui;    
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+#blogsubdiv{
+    display: flex;
+    flex-direction: row;
+    transition: 0.6sec;
+}
+#blogsubdiv:hover{
+    background: #9bbea9;
+    border-radius: 7px;
+}
+
+#jokeQ{
+    font-family: system-ui;
+    font-size: 1.2rem;
+}
+
+#jokeA{
+    font-family: system-ui;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#creator{
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500;
+    padding-left: 10px;
+}
